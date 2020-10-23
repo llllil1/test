@@ -1,0 +1,48 @@
+[
+  {
+    "serverInfo": {
+      "name": "WHITE 서버 PC 결제",
+      "code": "WHITE",
+      "url": "http://61.100.189.116:45402",
+      "uri": "/paypage/common/mainFrame.pay"
+    },
+    "section": [
+      {
+        "id": 1,
+        "sectionName": "기본정보",
+        "params": [
+          {
+            "id": 1,
+            "detail": "상점ID",
+            "name": "mid",
+            "ex": "M20200101112233"
+          },
+          {
+            "id": 2,
+            "detail": "returnURL",
+            "name": "returnUrl",
+            "ex": "https://site.com/return.jsp"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "sectionName": "부가정보",
+        "params": [
+          {
+            "id": 1,
+            "detail": "가맹점예약필드1",
+            "name": "reserved01",
+            "ex": "응답시 반환용"
+          },
+          {
+            "id": 2,
+            "detail": "가맹점예약필드2",
+            "name": "reserved02",
+            "ex": "응답시 반환용"
+          }
+        ]
+      }
+    ]
+  }
+]
